@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		391998CE1F4D6F9B00521EE5 /* EarlGrey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 391998CB1F4D6F6C00521EE5 /* EarlGrey.framework */; };
+		3980A85F1F4D747A0051D891 /* EGTabScrollTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980A85E1F4D747A0051D891 /* EGTabScrollTestTests.m */; };
+		3980A86D1F4D74890051D891 /* EarlGrey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3980A86C1F4D74820051D891 /* EarlGrey.framework */; };
+		39D83D171F4D6468008CD867 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D83D161F4D6468008CD867 /* AppDelegate.m */; };
+		39D83D201F4D6468008CD867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39D83D1E1F4D6468008CD867 /* Main.storyboard */; };
+		39D83D221F4D6468008CD867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39D83D211F4D6468008CD867 /* Assets.xcassets */; };
+		39D83D251F4D6468008CD867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39D83D231F4D6468008CD867 /* LaunchScreen.storyboard */; };
+		39D83D281F4D6468008CD867 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D83D271F4D6468008CD867 /* main.m */; };
+		39D83D301F4D6699008CD867 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D83D2F1F4D6699008CD867 /* TableViewController.m */; };
+		39D83D331F4D6963008CD867 /* COSTouchVisualizerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D83D321F4D6963008CD867 /* COSTouchVisualizerWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		391998CA1F4D6F6C00521EE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 391998C51F4D6F6C00521EE5 /* EarlGrey.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FD1000E91C5B466F00B2DB0A;
+			remoteInfo = EarlGrey;
+		};
+		391998CC1F4D6F9800521EE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 391998C51F4D6F6C00521EE5 /* EarlGrey.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FD1000E81C5B466F00B2DB0A;
+			remoteInfo = EarlGrey;
+		};
+		3980A8611F4D747A0051D891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39D83D0A1F4D6468008CD867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39D83D111F4D6468008CD867;
+			remoteInfo = EGTabScrollTest;
+		};
+		3980A86B1F4D74820051D891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3980A8661F4D74820051D891 /* EarlGrey.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FD1000E91C5B466F00B2DB0A;
+			remoteInfo = EarlGrey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		391998C51F4D6F6C00521EE5 /* EarlGrey.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EarlGrey.xcodeproj; path = "EarlGrey-master/EarlGrey.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		3980A85C1F4D747A0051D891 /* EGTabScrollTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EGTabScrollTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3980A85E1F4D747A0051D891 /* EGTabScrollTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGTabScrollTestTests.m; sourceTree = "<group>"; };
+		3980A8601F4D747A0051D891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3980A8661F4D74820051D891 /* EarlGrey.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EarlGrey.xcodeproj; path = "EarlGrey-master/EarlGrey.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		39D83D121F4D6468008CD867 /* EGTabScrollTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EGTabScrollTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D83D151F4D6468008CD867 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39D83D161F4D6468008CD867 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39D83D1F1F4D6468008CD867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39D83D211F4D6468008CD867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39D83D241F4D6468008CD867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39D83D261F4D6468008CD867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39D83D271F4D6468008CD867 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39D83D2E1F4D6699008CD867 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		39D83D2F1F4D6699008CD867 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		39D83D311F4D6962008CD867 /* COSTouchVisualizerWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = COSTouchVisualizerWindow.h; sourceTree = "<group>"; };
+		39D83D321F4D6963008CD867 /* COSTouchVisualizerWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COSTouchVisualizerWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3980A8591F4D747A0051D891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3980A86D1F4D74890051D891 /* EarlGrey.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D83D0F1F4D6468008CD867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391998CE1F4D6F9B00521EE5 /* EarlGrey.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		390B040A1F4D6B46002D84B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		391998C61F4D6F6C00521EE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				391998CB1F4D6F6C00521EE5 /* EarlGrey.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3980A85D1F4D747A0051D891 /* EGTabScrollTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				3980A8661F4D74820051D891 /* EarlGrey.xcodeproj */,
+				3980A85E1F4D747A0051D891 /* EGTabScrollTestTests.m */,
+				3980A8601F4D747A0051D891 /* Info.plist */,
+			);
+			path = EGTabScrollTestTests;
+			sourceTree = "<group>";
+		};
+		3980A8671F4D74820051D891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3980A86C1F4D74820051D891 /* EarlGrey.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39D83D091F4D6468008CD867 = {
+			isa = PBXGroup;
+			children = (
+				39D83D141F4D6468008CD867 /* EGTabScrollTest */,
+				3980A85D1F4D747A0051D891 /* EGTabScrollTestTests */,
+				39D83D131F4D6468008CD867 /* Products */,
+				390B040A1F4D6B46002D84B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		39D83D131F4D6468008CD867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39D83D121F4D6468008CD867 /* EGTabScrollTest.app */,
+				3980A85C1F4D747A0051D891 /* EGTabScrollTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39D83D141F4D6468008CD867 /* EGTabScrollTest */ = {
+			isa = PBXGroup;
+			children = (
+				391998C51F4D6F6C00521EE5 /* EarlGrey.xcodeproj */,
+				39D83D151F4D6468008CD867 /* AppDelegate.h */,
+				39D83D161F4D6468008CD867 /* AppDelegate.m */,
+				39D83D2E1F4D6699008CD867 /* TableViewController.h */,
+				39D83D2F1F4D6699008CD867 /* TableViewController.m */,
+				39D83D311F4D6962008CD867 /* COSTouchVisualizerWindow.h */,
+				39D83D321F4D6963008CD867 /* COSTouchVisualizerWindow.m */,
+				39D83D1E1F4D6468008CD867 /* Main.storyboard */,
+				39D83D211F4D6468008CD867 /* Assets.xcassets */,
+				39D83D231F4D6468008CD867 /* LaunchScreen.storyboard */,
+				39D83D261F4D6468008CD867 /* Info.plist */,
+				39D83D271F4D6468008CD867 /* main.m */,
+			);
+			path = EGTabScrollTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3980A85B1F4D747A0051D891 /* EGTabScrollTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3980A8631F4D747A0051D891 /* Build configuration list for PBXNativeTarget "EGTabScrollTestTests" */;
+			buildPhases = (
+				3980A8581F4D747A0051D891 /* Sources */,
+				3980A8591F4D747A0051D891 /* Frameworks */,
+				3980A85A1F4D747A0051D891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3980A8621F4D747A0051D891 /* PBXTargetDependency */,
+			);
+			name = EGTabScrollTestTests;
+			productName = EGTabScrollTestTests;
+			productReference = 3980A85C1F4D747A0051D891 /* EGTabScrollTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39D83D111F4D6468008CD867 /* EGTabScrollTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D83D2B1F4D6468008CD867 /* Build configuration list for PBXNativeTarget "EGTabScrollTest" */;
+			buildPhases = (
+				39D83D0E1F4D6468008CD867 /* Sources */,
+				39D83D0F1F4D6468008CD867 /* Frameworks */,
+				39D83D101F4D6468008CD867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				391998CD1F4D6F9800521EE5 /* PBXTargetDependency */,
+			);
+			name = EGTabScrollTest;
+			productName = EGTabScrollTest;
+			productReference = 39D83D121F4D6468008CD867 /* EGTabScrollTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39D83D0A1F4D6468008CD867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Leo Natan (Wix)";
+				TargetAttributes = {
+					3980A85B1F4D747A0051D891 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39D83D111F4D6468008CD867;
+					};
+					39D83D111F4D6468008CD867 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 39D83D0D1F4D6468008CD867 /* Build configuration list for PBXProject "EGTabScrollTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39D83D091F4D6468008CD867;
+			productRefGroup = 39D83D131F4D6468008CD867 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3980A8671F4D74820051D891 /* Products */;
+					ProjectRef = 3980A8661F4D74820051D891 /* EarlGrey.xcodeproj */;
+				},
+				{
+					ProductGroup = 391998C61F4D6F6C00521EE5 /* Products */;
+					ProjectRef = 391998C51F4D6F6C00521EE5 /* EarlGrey.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				39D83D111F4D6468008CD867 /* EGTabScrollTest */,
+				3980A85B1F4D747A0051D891 /* EGTabScrollTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		391998CB1F4D6F6C00521EE5 /* EarlGrey.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = EarlGrey.framework;
+			remoteRef = 391998CA1F4D6F6C00521EE5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3980A86C1F4D74820051D891 /* EarlGrey.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = EarlGrey.framework;
+			remoteRef = 3980A86B1F4D74820051D891 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3980A85A1F4D747A0051D891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D83D101F4D6468008CD867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D83D251F4D6468008CD867 /* LaunchScreen.storyboard in Resources */,
+				39D83D221F4D6468008CD867 /* Assets.xcassets in Resources */,
+				39D83D201F4D6468008CD867 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3980A8581F4D747A0051D891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3980A85F1F4D747A0051D891 /* EGTabScrollTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D83D0E1F4D6468008CD867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D83D171F4D6468008CD867 /* AppDelegate.m in Sources */,
+				39D83D301F4D6699008CD867 /* TableViewController.m in Sources */,
+				39D83D281F4D6468008CD867 /* main.m in Sources */,
+				39D83D331F4D6963008CD867 /* COSTouchVisualizerWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		391998CD1F4D6F9800521EE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EarlGrey;
+			targetProxy = 391998CC1F4D6F9800521EE5 /* PBXContainerItemProxy */;
+		};
+		3980A8621F4D747A0051D891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39D83D111F4D6468008CD867 /* EGTabScrollTest */;
+			targetProxy = 3980A8611F4D747A0051D891 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39D83D1E1F4D6468008CD867 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39D83D1F1F4D6468008CD867 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39D83D231F4D6468008CD867 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39D83D241F4D6468008CD867 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3980A8641F4D747A0051D891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				INFOPLIST_FILE = EGTabScrollTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wix.EGTabScrollTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EGTabScrollTest.app/EGTabScrollTest";
+			};
+			name = Debug;
+		};
+		3980A8651F4D747A0051D891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				INFOPLIST_FILE = EGTabScrollTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wix.EGTabScrollTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EGTabScrollTest.app/EGTabScrollTest";
+			};
+			name = Release;
+		};
+		39D83D291F4D6468008CD867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		39D83D2A1F4D6468008CD867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39D83D2C1F4D6468008CD867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EGTabScrollTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wix.EGTabScrollTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39D83D2D1F4D6468008CD867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EGTabScrollTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wix.EGTabScrollTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3980A8631F4D747A0051D891 /* Build configuration list for PBXNativeTarget "EGTabScrollTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3980A8641F4D747A0051D891 /* Debug */,
+				3980A8651F4D747A0051D891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39D83D0D1F4D6468008CD867 /* Build configuration list for PBXProject "EGTabScrollTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D83D291F4D6468008CD867 /* Debug */,
+				39D83D2A1F4D6468008CD867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39D83D2B1F4D6468008CD867 /* Build configuration list for PBXNativeTarget "EGTabScrollTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D83D2C1F4D6468008CD867 /* Debug */,
+				39D83D2D1F4D6468008CD867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39D83D0A1F4D6468008CD867 /* Project object */;
+}
